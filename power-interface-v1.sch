@@ -1,0 +1,330 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:diypinball-parts
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PINBALL-CONNECTOR P1
+U 1 1 561D5637
+P 4050 3750
+F 0 "P1" H 4050 4500 60  0000 C CNN
+F 1 "PINBALL-CONNECTOR" H 4050 3000 60  0000 C CNN
+F 2 "Pinball:PINBALL-CONNECTOR-V" H 4250 3800 60  0001 C CNN
+F 3 "" H 4250 3800 60  0000 C CNN
+	1    4050 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINBALL-CONNECTOR P2
+U 1 1 561D566A
+P 4050 5350
+F 0 "P2" H 4050 6100 60  0000 C CNN
+F 1 "PINBALL-CONNECTOR" H 4050 4600 60  0000 C CNN
+F 2 "Pinball:PINBALL-CONNECTOR-V" H 4250 5400 60  0001 C CNN
+F 3 "" H 4250 5400 60  0000 C CNN
+	1    4050 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR1
+U 1 1 561D6789
+P 4750 6050
+F 0 "#PWR1" H 4750 5800 50  0001 C CNN
+F 1 "GND" H 4750 5900 50  0000 C CNN
+F 2 "" H 4750 6050 60  0000 C CNN
+F 3 "" H 4750 6050 60  0000 C CNN
+	1    4750 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 4750 4450 4750
+Wire Wire Line
+	4550 3150 4450 3150
+Connection ~ 4550 4750
+Wire Wire Line
+	4550 3250 4450 3250
+Connection ~ 4550 3250
+Wire Wire Line
+	4450 3450 4650 3450
+Wire Wire Line
+	4650 5050 4450 5050
+Connection ~ 4650 5050
+Wire Wire Line
+	4650 3550 4450 3550
+Connection ~ 4650 3550
+Wire Wire Line
+	4450 4050 4750 4050
+Wire Wire Line
+	4750 5950 4450 5950
+Connection ~ 4750 5950
+Wire Wire Line
+	4750 5850 4450 5850
+Connection ~ 4750 5850
+Wire Wire Line
+	4750 5750 4450 5750
+Connection ~ 4750 5750
+Wire Wire Line
+	4750 5650 4450 5650
+Connection ~ 4750 5650
+Wire Wire Line
+	4750 4350 4450 4350
+Connection ~ 4750 4350
+Wire Wire Line
+	4750 4250 4450 4250
+Connection ~ 4750 4250
+Wire Wire Line
+	4450 4150 4750 4150
+Connection ~ 4750 4150
+Wire Wire Line
+	4450 3750 4850 3750
+Wire Wire Line
+	4450 3850 4950 3850
+Wire Wire Line
+	4750 4050 4750 6050
+Wire Wire Line
+	4450 5450 4950 5450
+Wire Wire Line
+	4950 5450 4950 3850
+Wire Wire Line
+	4450 5350 4850 5350
+Wire Wire Line
+	4850 5350 4850 3750
+Wire Wire Line
+	4550 2700 4550 4850
+Wire Wire Line
+	4550 4850 4450 4850
+Wire Wire Line
+	4650 3450 4650 5150
+Wire Wire Line
+	4650 5150 4450 5150
+$Comp
+L PINBALL-CONNECTOR P3
+U 1 1 561F2B01
+P 6600 3750
+F 0 "P3" H 6600 4500 60  0000 C CNN
+F 1 "PINBALL-CONNECTOR" H 6600 3000 60  0000 C CNN
+F 2 "Pinball:PINBALL-CONNECTOR-V" H 6800 3800 60  0001 C CNN
+F 3 "" H 6800 3800 60  0000 C CNN
+	1    6600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L PINBALL-CONNECTOR P4
+U 1 1 561F2B07
+P 6600 5350
+F 0 "P4" H 6600 6100 60  0000 C CNN
+F 1 "PINBALL-CONNECTOR" H 6600 4600 60  0000 C CNN
+F 2 "Pinball:PINBALL-CONNECTOR-V" H 6800 5400 60  0001 C CNN
+F 3 "" H 6800 5400 60  0000 C CNN
+	1    6600 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 561F2B0D
+P 7300 6050
+F 0 "#PWR2" H 7300 5800 50  0001 C CNN
+F 1 "GND" H 7300 5900 50  0000 C CNN
+F 2 "" H 7300 6050 60  0000 C CNN
+F 3 "" H 7300 6050 60  0000 C CNN
+	1    7300 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4750 7000 4750
+Wire Wire Line
+	7100 3150 7000 3150
+Connection ~ 7100 4750
+Wire Wire Line
+	7100 3250 7000 3250
+Connection ~ 7100 3250
+Wire Wire Line
+	7000 3450 7200 3450
+Wire Wire Line
+	7200 5050 7000 5050
+Connection ~ 7200 5050
+Wire Wire Line
+	7200 3550 7000 3550
+Connection ~ 7200 3550
+Wire Wire Line
+	7000 4050 7300 4050
+Wire Wire Line
+	7000 5950 8400 5950
+Connection ~ 7300 5950
+Wire Wire Line
+	7300 5850 7000 5850
+Connection ~ 7300 5850
+Wire Wire Line
+	7300 5750 7000 5750
+Connection ~ 7300 5750
+Wire Wire Line
+	7300 5650 7000 5650
+Connection ~ 7300 5650
+Wire Wire Line
+	7300 4350 7000 4350
+Connection ~ 7300 4350
+Wire Wire Line
+	7300 4250 7000 4250
+Connection ~ 7300 4250
+Wire Wire Line
+	7000 4150 7300 4150
+Connection ~ 7300 4150
+Wire Wire Line
+	7000 3750 7400 3750
+Wire Wire Line
+	7000 3850 7500 3850
+Wire Wire Line
+	7300 4050 7300 6050
+Wire Wire Line
+	7000 5450 7500 5450
+Wire Wire Line
+	7500 5450 7500 3850
+Wire Wire Line
+	7000 5350 7400 5350
+Wire Wire Line
+	7400 5350 7400 3750
+Wire Wire Line
+	7100 3150 7100 4850
+Wire Wire Line
+	7100 4850 7000 4850
+Wire Wire Line
+	7200 2700 7200 5150
+Wire Wire Line
+	7200 5150 7000 5150
+Text Notes 4650 6450 0    60   ~ 0
+P1 and P2 are populated for a Vsol supply\nP3 and P4 are populated for a 12V supply
+Text Label 3900 2700 0    60   ~ 0
+VOLTAGE_IN
+Wire Wire Line
+	3900 2700 8400 2700
+Connection ~ 7200 3450
+Connection ~ 4550 2700
+Connection ~ 4550 3150
+$Comp
+L CONN_01X01 P5
+U 1 1 561F2E9C
+P 9200 3300
+F 0 "P5" H 9200 3400 50  0000 C CNN
+F 1 "CONN_01X01" V 9300 3300 50  0000 C CNN
+F 2 "Pinball:PSU-HOLE" H 9200 3300 60  0001 C CNN
+F 3 "" H 9200 3300 60  0000 C CNN
+	1    9200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P6
+U 1 1 561F2F29
+P 9200 3600
+F 0 "P6" H 9200 3700 50  0000 C CNN
+F 1 "CONN_01X01" V 9300 3600 50  0000 C CNN
+F 2 "Pinball:PSU-HOLE" H 9200 3600 60  0001 C CNN
+F 3 "" H 9200 3600 60  0000 C CNN
+	1    9200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P7
+U 1 1 561F2F62
+P 9200 3900
+F 0 "P7" H 9200 4000 50  0000 C CNN
+F 1 "CONN_01X01" V 9300 3900 50  0000 C CNN
+F 2 "Pinball:PSU-HOLE" H 9200 3900 60  0001 C CNN
+F 3 "" H 9200 3900 60  0000 C CNN
+	1    9200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P8
+U 1 1 561F2F85
+P 9200 4200
+F 0 "P8" H 9200 4300 50  0000 C CNN
+F 1 "CONN_01X01" V 9300 4200 50  0000 C CNN
+F 2 "Pinball:PSU-HOLE" H 9200 4200 60  0001 C CNN
+F 3 "" H 9200 4200 60  0000 C CNN
+	1    9200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P9
+U 1 1 561F2FAA
+P 9200 4500
+F 0 "P9" H 9200 4600 50  0000 C CNN
+F 1 "CONN_01X01" V 9300 4500 50  0000 C CNN
+F 2 "Pinball:PSU-HOLE" H 9200 4500 60  0001 C CNN
+F 3 "" H 9200 4500 60  0000 C CNN
+	1    9200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P10
+U 1 1 561F2FD1
+P 9200 4800
+F 0 "P10" H 9200 4900 50  0000 C CNN
+F 1 "CONN_01X01" V 9300 4800 50  0000 C CNN
+F 2 "Pinball:PSU-HOLE" H 9200 4800 60  0001 C CNN
+F 3 "" H 9200 4800 60  0000 C CNN
+	1    9200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 3900 8400 3900
+Wire Wire Line
+	8400 3900 8400 2700
+Connection ~ 7200 2700
+Wire Wire Line
+	9000 3600 8400 3600
+Connection ~ 8400 3600
+Wire Wire Line
+	9000 3300 8400 3300
+Connection ~ 8400 3300
+Wire Wire Line
+	9000 4200 8400 4200
+Wire Wire Line
+	8400 4200 8400 5950
+Wire Wire Line
+	9000 4500 8400 4500
+Connection ~ 8400 4500
+Wire Wire Line
+	9000 4800 8400 4800
+Connection ~ 8400 4800
+$EndSCHEMATC

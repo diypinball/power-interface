@@ -1,0 +1,37 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BAT54C
+D Double diode Shottky Cathodes communes
+K DEV DIODE
+$ENDCMP
+#
+$CMP BC846
+D BC850, 45V Vce, 0.1A Ic, Low noise, NPN, SOT-23
+K NPN Low Noise Small Signal Transistor
+F http://www.fairchildsemi.com/ds/BC/BC850.pdf
+$ENDCMP
+#
+$CMP CONN_16
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
+$CMP DMN3190LDW-7
+D DMN3190LDW, 30V Vds, 1.0A Id, 122mOhm Rds, Dual N-Channel MOSFET, SOT323-6
+K Dual N-Channel MOSFET Logic Level
+F http://www.diodes.com/datasheets/DMN3190LDW.pdf
+$ENDCMP
+#
+$CMP DMN6040SSD
+D IRF7309IPBF, 30V Vds, 3A Id, Dual HEXFET MOSFET, SO8
+K Dual HEXFET N-Channel P-Channel MOSFET
+F http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf
+$ENDCMP
+#
+$CMP DMP2240UDM
+D DMN2240UDM, 20V Vds, 2A Id, Dual HEXFET MOSFET, SOT-26
+K Dual MOSFET P-Channel MOSFET
+F http://www.diodes.com/datasheets/ds31197.pdf
+$ENDCMP
+#
+#End Doc Library
